@@ -1,3 +1,5 @@
+/* font-family: 'Nunito Sans', sans-serif; */
+
 * {
   margin: auto;
   padding: 0;
@@ -6,11 +8,30 @@
 
 body {
   width: 400px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 nav {
-  background-color: red;
+  background-color: #fb3f5c;
   height: 100px;
+  display: flex;
+}
+
+header {
+  margin-bottom: 75px;
+}
+
+strong {
+  color: #fb3f5c;
+}
+
+button {
+  margin-top: 50px;
+  padding: 20px 30px;
+  background-color: #fb3f5c;
+  border-radius: 18px;
+  border: none;
+  color: white;
   display: flex;
 }
 
@@ -32,4 +53,8 @@ nav {
   top: 100px;
   right: -10px;
   z-index: -10;
+}
+
+.presentation {
+  text-align: center;
 }
