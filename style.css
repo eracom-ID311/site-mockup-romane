@@ -55,6 +55,10 @@ button {
   z-index: -10;
 }
 
+.deco-bas {
+  top: 863px;
+}
+
 .presentation {
   text-align: center;
 }
