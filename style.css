@@ -17,12 +17,13 @@ nav {
   display: flex;
 }
 
-header {
-  margin-bottom: 75px;
-}
-
 strong {
   color: #fb3f5c;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 button {
@@ -30,7 +31,7 @@ button {
   padding: 20px 30px;
   background-color: #fb3f5c;
   border-radius: 18px;
-  border: none;
+  border: solid 2px #fb3f5c;
   color: white;
   display: flex;
 }
@@ -45,6 +46,7 @@ button {
 
 .pprofile {
   margin-top: 50px;
+  margin-bottom: 75px;
   display: flex;
 }
 
@@ -56,9 +58,58 @@ button {
 }
 
 .deco-bas {
-  top: 863px;
+  top: 880px;
+  opacity: 50%;
+}
+
+.softwares {
+  max-width: 90vw;
+  margin-left: 5vw;
+  margin-top: 50px;
 }
 
 .presentation {
   text-align: center;
+}
+
+.presentation h1 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.black-presentation strong {
+  color: black;
+}
+
+.black-presentation h1 {
+  text-align: left;
+}
+
+.black-presentation {
+  text-align: left;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.line {
+  background-color: white;
+  color: #fb3f5c;
+}
+
+.bigBoxavis {
+  display: flex;
+  flex-direction: row;
+  background-color: #fec5ce;
+  height: 100px;
+  margin: 50px 0;
+}
+
+.smallBoxavis {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+
+.work {
+  margin: 20px 40px;
 }
