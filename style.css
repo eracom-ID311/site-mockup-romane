@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  background-color: #fb3f5c;
+  background-color: #ce324a;
   height: 100px;
   display: flex;
 }
@@ -24,7 +24,7 @@ nav {
 }
 
 strong {
-  color: #fb3f5c;
+  color: #ce324a;
 }
 
 h1 {
@@ -35,9 +35,9 @@ h1 {
 button {
   margin-top: 50px;
   padding: 20px 30px;
-  background-color: #fb3f5c;
+  background-color: #ce324a;
   border-radius: 18px;
-  border: solid 2px #fb3f5c;
+  border: solid 2px #ce324a;
   color: white;
   display: flex;
 }
@@ -99,7 +99,7 @@ button {
 
 .line {
   background-color: white;
-  color: #fb3f5c;
+  color: #ce324a;
 }
 
 .bigBoxavis {
@@ -143,7 +143,7 @@ button {
 
 .BGrose-center a {
   text-decoration: none;
-  color: white;
+  color: #555555;
   margin-bottom: 10px;
 }
 
